@@ -86,7 +86,7 @@ while ($true) {
     Ensure-TorRunning
 
     Write-Host "`nStarting vote batch at $(Get-Date -Format 'HH:mm:ss')..." -ForegroundColor Cyan
-    & node bbb-vote-old.mjs @nodeArgs
+    & node worker.mjs @nodeArgs
 
     Write-Host "Script cycle finished. Restarting in 2 seconds (Ctrl+C to stop)..." -ForegroundColor Yellow
     Start-Sleep -Seconds 2

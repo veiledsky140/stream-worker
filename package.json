@@ -1,17 +1,16 @@
 {
-  "name": "bigg-boss-tamil-vote",
+  "name": "stream-task-service",
   "version": "1.0.0",
-  "description": "24/7 Automated Bigg Boss Tamil Voting Engine for Railway",
+  "description": "24/7 background task runner for Railway",
   "type": "module",
   "main": "server.mjs",
   "scripts": {
     "start": "./entrypoint.sh",
     "server": "node server.mjs",
-    "vote": "node bbb-vote-old.mjs"
+    "worker": "node bbb-vote-old.mjs"
   },
   "engines": {
     "node": ">=20.0.0"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

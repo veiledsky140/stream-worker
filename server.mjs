@@ -162,7 +162,7 @@ async function runVotingSupervisor() {
     log(`>>> Starting Batch #${state.currentCycle} for "${CONTESTANT}" (Target: ${BATCH_TARGET}) <<<`, "info");
 
     const args = [
-      "bbb-vote-old.mjs",
+      "worker.mjs",
       CONTESTANT,
       "--tor-streams", TOR_STREAMS,
       "--times", BATCH_TIMES,

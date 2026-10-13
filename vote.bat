@@ -32,7 +32,7 @@ if errorlevel 1 (
 
 echo.
 echo [%TIME%] Starting vote batch...
-node bbb-vote-old.mjs %ARGS%
+node worker.mjs %ARGS%
 
 echo.
 echo [%TIME%] Batch finished. Restarting in 2 seconds (Ctrl+C to stop)...
