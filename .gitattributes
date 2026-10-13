@@ -1,0 +1,4 @@
+# Ensure shell scripts and tor configuration keep LF endings in git
+*.sh text eol=lf
+torrc text eol=lf
+Dockerfile text eol=lf
