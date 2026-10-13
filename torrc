@@ -1,0 +1,6 @@
+## Tor configuration for Railway 24/7 voting runner
+SocksPort 127.0.0.1:9050 IsolateSOCKSAuth
+ControlPort 127.0.0.1:9051
+CookieAuthentication 0
+DataDirectory /var/lib/tor
+Log notice stdout

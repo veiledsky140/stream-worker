@@ -1,0 +1,7 @@
+tor-bundle/
+.tor/
+spent-*.txt
+node_modules/
+.env
+.DS_Store
+Thumbs.db

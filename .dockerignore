@@ -1,0 +1,10 @@
+tor-bundle
+.tor
+node_modules
+*.bat
+*.ps1
+spent-*.txt
+.git
+.gitignore
+.DS_Store
+Thumbs.db

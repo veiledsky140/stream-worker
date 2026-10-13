@@ -1,0 +1,17 @@
+{
+  "name": "bigg-boss-tamil-vote",
+  "version": "1.0.0",
+  "description": "24/7 Automated Bigg Boss Tamil Voting Engine for Railway",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "./entrypoint.sh",
+    "server": "node server.mjs",
+    "vote": "node bbb-vote-old.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
